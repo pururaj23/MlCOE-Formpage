@@ -7,6 +7,7 @@
   --border-light: rgba(73, 115, 161, 0.3);
   --input-bg: rgba(12, 23, 48, 0.7);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -212,6 +213,9 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
+.radio-btn input {
+  display: none;
+}
 .radio-btn span {
   font-size: 0.75rem;
   font-weight: 600;
@@ -224,6 +228,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+.domain-radio input {
+  display: none;
 }
 .box-content {
   background: var(--input-bg);
